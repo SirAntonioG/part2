@@ -16,10 +16,6 @@ const update = (id, newObject) => {
   return request.then((response) => response.data);
 };
 
-const noteService = {
-  getAll: getAll,
-  create: create,
-  update: update,
-};
+const noteService = { getAll, create, update };
 
 export default noteService;
